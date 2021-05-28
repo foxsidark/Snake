@@ -10,6 +10,7 @@ public class MoveObject : MonoBehaviour
     private Rigidbody rb;
     void Start()
     {
+        speed = 7;
         rb = gameObject.GetComponent<Rigidbody>();
     }
 

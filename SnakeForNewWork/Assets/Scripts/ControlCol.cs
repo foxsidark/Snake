@@ -13,7 +13,7 @@ public class ControlCol : MonoBehaviour
 
     void Start()
     {
-        
+        flagFevet = false;
     }
 
     private void FeverActiv()
