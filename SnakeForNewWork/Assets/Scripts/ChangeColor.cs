@@ -14,6 +14,7 @@ public class ChangeColor : MonoBehaviour
 
     void Start()
     {
+        MoveObject.speed = 7;
         Invoke("chcolor", period);
     }
 
